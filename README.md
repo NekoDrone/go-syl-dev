@@ -1,22 +1,16 @@
-# go_syl_dev
+# go.syl.dev
 
-[![Package Version](https://img.shields.io/hexpm/v/go_syl_dev)](https://hex.pm/packages/go_syl_dev)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/go_syl_dev/)
+A simple URL shortener akin to [go.gov.sg](https://go.gov.sg/) written in [Gleam](https://gleam.run/)!
 
-```sh
-gleam add go_syl_dev@1
-```
-```gleam
-import go_syl_dev
+# Usage
 
-pub fn main() {
-  // TODO: An example of the project in use
-}
-```
+You may fork this project to host on your own. YMMV.
 
-Further documentation can be found at <https://hexdocs.pm/go_syl_dev>.
+# Contributing
 
-## Development
+The project is not open to contributions.
+
+# Development
 
 ```sh
 gleam run   # Run the project
