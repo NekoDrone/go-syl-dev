@@ -76,8 +76,7 @@ fn add_url_record(
         response.new(200)
         |> response.set_body(mist.Bytes(bytes_builder.new()))
       }
-      Error(err) -> {
-        io.debug(err)
+      Error(_) -> {
         response.new(400)
         |> response.set_body(mist.Bytes(bytes_builder.new()))
       }

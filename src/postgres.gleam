@@ -1,6 +1,5 @@
 import envoy
 import gleam/dynamic
-import gleam/io
 import gleam/list
 import gleam/pgo
 import gleam/result
@@ -63,8 +62,5 @@ pub fn add_redirect_to_db(
     DO UPDATE SET
       target = EXCLUDED.target
     "
-  io.debug("Attempting to add url info to database: ")
-  io.debug(url_info)
-
   pgo.execute(query, db, [], dynamic.dynamic)
 }
